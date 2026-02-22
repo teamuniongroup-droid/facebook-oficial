@@ -317,7 +317,7 @@ const Index = () => {
 
     // Listen for player ready to reveal hidden elements and scroll when visible
     player.addEventListener('player:ready', function() {
-      (player as any).displayHiddenElements(1037, ['.esconder'], { persist: true });
+      (player as any).displayHiddenElements(1036, ['.esconder'], { persist: true });
 
       // Observe when .esconder elements become visible, then scroll
       const observer = new MutationObserver(() => {
